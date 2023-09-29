@@ -1,0 +1,147 @@
+
+/* div {
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    border: 5px solid blueviolet;
+    padding: 10px 30px 60px 100px;
+    margin: 150px auto;
+    text-align: justify;
+
+} */
+html {
+    font-size: 1,2em;
+}
+header {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-shadow: 0px 20px 40px -30px black;
+    border: 3px rgb(61, 61, 61) solid;
+}
+main {
+    background-color: #f3f3f3;
+}
+footer {
+    background-color: #f3f3f3;
+    padding: 20px 100px;
+}
+
+.about {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 20px 100px;
+    color: black;
+}
+.about-text{
+    font-size: 1rem;
+    color: black;
+}
+.articles{
+    text-align: center;
+    padding: 20px 100px;
+    color: black;
+}
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: black;
+}
+h2 {
+    font-size: 1,5em;
+    text-decoration:underline;
+    text-transform: uppercase;
+    color: black;
+}
+html {
+    font-family: 'Press Start 2P', cursive;
+}
+.list-articles {
+    text-align: left;
+}
+img {
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px -30px rgb(0, 0, 0);
+}
+.main-menu{
+    list-style: none;
+    padding-left: 0;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: red;
+}
+a:active {
+    color: black;
+}
+a:hover {
+    color: orange;
+}
+a:focus {
+    color: blueviolet;
+}
+.list-articles li:nth-child(2n) {
+    background-color: cyan;
+}
+.main-menu li::after {
+    content: "new";
+    margin-left: 5px;
+    font-size: 12px;
+    color:brown;
+  }
+  
+  .main-menu li {
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+  }
+  
+  .main-menu li::before {
+    content: "";
+    display: block;
+    position:absolute;
+    top: 0;
+    width:0;
+    height: 2px;
+    background-color: brown;
+    transition: 1s;
+  }
+  .main-menu li:hover::before {
+    width:100%;  
+  }
+.table-price {
+    border:  solid 5px green;
+    border-collapse: collapse;
+} 
+
+.table-price td,
+.table-price th {
+    border: dotted 1px blueviolet;
+}
+.reg input[type="text"],
+.reg input[type="password"]
+{
+    border: black solid;
+    padding: 5px 15px;
+    margin-top: 15px;
+
+}
+
+.reg input[type=submit]{
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.reg input[type=submit]:hover,
+.reg input[type=submit]:focus {
+    background-color: green(24, 24, 189);
+}
+
+a[href^='http'] {
+    font-style: italic;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="table-price">
+        <caption>Счёт</caption>
+<thead>
+<tr>
+    <th rowspan="2"> Наименование</th>
+    <th rowspan="2">Цена</th>
+    <th rowspan="2">Количество</th>
+    <th colspan="2">Стоимость</th>
+</tr>
+<tr>
+    <th>без скидки</th>
+    <th>со скидкой</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Карандаш</td>
+    <td>50</td>
+    <td>10</td>
+    <td>500</td>
+    <td>250</td>
+
+</tr>
+<tr>
+    <td>Ластик</td>
+    <td>10</td>
+    <td>3</td>
+    <td>30</td>
+    <td>15</td>
+</tr>
+</tbody>        
+    </table>
+
+    <form class="reg">
+        <label for="login">login</label>
+        <input id="login" name="login" type="text" required><br>
+        <label for="password">password</label>
+        <input id="password" name="password" type="password" required><br>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Ж</label>
+        <select name="type" id="type"><br>
+            <option value="student">student</option>
+            <option value="teacher">teacher</option>
+            <option value="parent">parent</option>
+        </select><br>
+        <input type="checkbox" id="agreement" name="agreement" checked required>
+        <label for="agreement">Согласие на обработку персональных данных</label><br>
+        <input type="submit" value="log"><br>
+        <textarea name="about" id="about" placeholder="Немного о себе" cols="30" rows="10"></textarea> 
+    </form>
+    
+</body>
+</html>
